@@ -23,7 +23,22 @@ namespace election_day
 
     public void Start(int countVoters)
     {
-      throw new NotImplementedException();
+      for (var index = 1; index <= countVoters; index++)
+      {
+        Console.WriteLine($"Digite o número do candidato de 1 a 3: ");
+        string? vote = Console.ReadLine();
+
+        switch (vote)
+        {
+          case "1": receivedOption1++; break;
+          case "2": receivedOption2++; break;
+          case "3": receivedOption3++; break;
+          default: optionNull++; break;
+        }
+
+        Console.WriteLine($"Voto registrado.");
+        Console.WriteLine($"Votação finalizada!!!");
+      }
     }
 
     public void PrintResult()
