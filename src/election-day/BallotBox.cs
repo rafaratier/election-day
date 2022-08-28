@@ -43,7 +43,10 @@ namespace election_day
 
     public void PrintResult()
     {
-      throw new NotImplementedException();
+      Console.WriteLine($"A opção 1 recebeu: {receivedOption1} votos(s)");
+      Console.WriteLine($"A opção 2 recebeu: {receivedOption2} votos(s)");
+      Console.WriteLine($"A opção 3 recebeu: {receivedOption3} votos(s)");
+      Console.WriteLine($"Total de votos anulados: {optionNull} votos(s)");
     }
   }
 }
