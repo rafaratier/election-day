@@ -10,15 +10,16 @@ namespace election_day
     public int GetCountVoters()
     {
       string? votersQuantityInput;
+      int voters;
 
       do
       {
         Console.Write("Informe o número de eleitores: ");
 
         votersQuantityInput = Console.ReadLine();
-      } while (String.IsNullOrWhiteSpace(votersQuantityInput));
+      } while (!(int.TryParse(votersQuantityInput, out voters)));
 
-      return Convert.ToInt32(votersQuantityInput);
+      return voters;
     }
 
     public void Start(int countVoters)
@@ -37,12 +38,12 @@ namespace election_day
         }
 
         Console.WriteLine($"Voto registrado.");
-        Console.WriteLine($"Votação finalizada!!!");
       }
     }
 
     public void PrintResult()
     {
+      Console.WriteLine($"Votação finalizada!!!");
       Console.WriteLine($"A opção 1 recebeu: {receivedOption1} votos(s)");
       Console.WriteLine($"A opção 2 recebeu: {receivedOption2} votos(s)");
       Console.WriteLine($"A opção 3 recebeu: {receivedOption3} votos(s)");
