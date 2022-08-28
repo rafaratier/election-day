@@ -9,10 +9,24 @@ namespace election_day.Test;
 [Collection("Sequential")]
 public class TestSecondReq
 {
-    [Theory(DisplayName = "Deve ler os votos")]
-    [InlineData(2, 2)]
-    public void TestStart(int countVoters, int printExpected)
+  [Theory(DisplayName = "Deve ler os votos")]
+  [InlineData(2, 2)]
+  public void TestStart(int countVoters, int printExpected)
+  {
+    using (var stringWriter = new StringWriter())
     {
-        throw new NotImplementedException();
+      using (var stringReader = new StringReader(countVoters.ToString()))
+      {
+
+        Console.SetOut(stringWriter);
+        Console.SetIn(stringReader);
+
+        var ballotBox = new BallotBox();
+        ballotBox.Start(countVoters);
+
+        var result = stringWriter.ToString().Trim();
+        result.Split("\n").Length.Should().Be(printExpected);
+      }
     }
+  }
 }
