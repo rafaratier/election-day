@@ -25,7 +25,7 @@ public class TestSecondReq
         ballotBox.Start(countVoters);
 
         var result = stringWriter.ToString().Trim().Split("\n");
-        result.Length.Should().Be(printExpected);
+        result.Length.Should().Be(printExpected * 2);
       }
     }
   }
