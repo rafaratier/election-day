@@ -1,0 +1,15 @@
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/bin/Debug/net6.0/election-day
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/bin/Debug/net6.0/election-day.deps.json
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/bin/Debug/net6.0/election-day.runtimeconfig.json
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/bin/Debug/net6.0/election-day.dll
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/bin/Debug/net6.0/election-day.pdb
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/obj/Debug/net6.0/election-day.csproj.AssemblyReference.cache
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/obj/Debug/net6.0/election-day.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/obj/Debug/net6.0/election-day.AssemblyInfoInputs.cache
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/obj/Debug/net6.0/election-day.AssemblyInfo.cs
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/obj/Debug/net6.0/election-day.csproj.CoreCompileInputs.cache
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/obj/Debug/net6.0/election-day.dll
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/obj/Debug/net6.0/refint/election-day.dll
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/obj/Debug/net6.0/election-day.pdb
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/obj/Debug/net6.0/election-day.genruntimeconfig.cache
+/home/rafael/repositorios/meus-projetos/election-day/src/election-day/obj/Debug/net6.0/ref/election-day.dll
